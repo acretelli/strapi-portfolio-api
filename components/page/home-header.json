@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_page_home_headers",
+  "info": {
+    "name": "homeHeader",
+    "icon": "pager",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "richtext",
+      "default": "Hi, my name is Anna",
+      "required": true,
+      "minLength": 5
+    },
+    "subtitle": {
+      "type": "richtext",
+      "default": "I’m a designer and a developer.",
+      "minLength": 5
+    },
+    "intro": {
+      "type": "richtext",
+      "default": "This is what I do...",
+      "minLength": 200
+    },
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.skills"
+    }
+  }
+}

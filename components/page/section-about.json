@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_page_section_abouts",
+  "info": {
+    "name": "sectionAbout",
+    "icon": "child",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "About me",
+      "required": true,
+      "minLength": 5
+    },
+    "subtitle": {
+      "type": "string",
+      "minLength": 5
+    },
+    "description": {
+      "type": "richtext",
+      "default": "A short description about me...",
+      "required": true,
+      "minLength": 40
+    },
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

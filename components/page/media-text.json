@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_media_texts",
+  "info": {
+    "name": "mediaText",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "default": "Add some text here...",
+      "minLength": 15
+    },
+    "media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

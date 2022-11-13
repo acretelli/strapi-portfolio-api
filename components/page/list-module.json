@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_list_modules",
+  "info": {
+    "name": "listModule",
+    "icon": "list-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string",
+      "minLength": 15
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.list"
+    }
+  }
+}

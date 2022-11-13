@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_social_btns",
+  "info": {
+    "name": "socialBtns",
+    "icon": "phone-square-alt"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

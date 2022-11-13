@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_contact_sections",
+  "info": {
+    "name": "contactSection",
+    "icon": "phone-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Contact",
+      "required": true,
+      "minLength": 5
+    },
+    "subtitle": {
+      "type": "string",
+      "minLength": 15
+    },
+    "socialBtns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.social-btns"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_projects_containers",
+  "info": {
+    "name": "projectsContainer",
+    "icon": "boxes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 5,
+      "default": "My projects"
+    },
+    "projects": {
+      "collection": "projects"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button"
+    }
+  }
+}

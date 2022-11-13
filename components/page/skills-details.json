@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_page_skills_details",
+  "info": {
+    "name": "SkillsDetails",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "minLength": 5
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true,
+      "minLength": 15
+    },
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

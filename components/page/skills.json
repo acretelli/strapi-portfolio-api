@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_skills",
+  "info": {
+    "name": "skills",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "skills": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

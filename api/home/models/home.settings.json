@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "homeHeader": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.home-header"
+    },
+    "projectsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.projects-container"
+    },
+    "sectionAbout": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about"
+    },
+    "infoListSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.list-module"
+    },
+    "contactSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.contact-section"
+    },
+    "downloadModule": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.dowload-module"
+    },
+    "SkillsDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.skills-details"
+    }
+  }
+}

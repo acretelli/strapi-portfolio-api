@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_lists",
+  "info": {
+    "name": "list",
+    "icon": "list-ol"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true,
+      "minLength": 5
+    },
+    "yearStart": {
+      "type": "biginteger"
+    },
+    "yearEnd": {
+      "type": "biginteger"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
