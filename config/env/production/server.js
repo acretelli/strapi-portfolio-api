@@ -1,8 +1,4 @@
-// Path: ./config/env/production/server.js`
-
 module.exports = ({ env }) => ({
-    url: env('WEBSITE_URL'),
-    port: process.env.PORT,
-  });
-  
-  
+  url: env('WEBSITE_URL'),
+  port: process.env.PORT,
+});
